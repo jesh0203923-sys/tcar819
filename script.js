@@ -1,10 +1,4 @@
-// 注意: 這段程式碼已將所有外部元件（如 Button, Card）替換為基本的 HTML 元素，以確保在 CodePen 上直接運作。
-// 這是一個純粹的 JSX 程式碼，不依賴任何外部套件。
-
 const App = () => {
-  // 由於沒有狀態管理庫，這裡只呈現靜態介面
-  // 為了簡化，所有互動功能（如購物車、篩選）都已移除，只保留介面呈現。
-
   const products = [
     {
       id: "p1",
@@ -86,7 +80,7 @@ const App = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-white to-slate-50 text-slate-800">
       {/* 頂部導覽 */}
-      <header className="sticky top-0 z-50 backdrop-blur bg-white/70 border-b">
+      <header className="sticky top-0 z-50 backdrop-blur bg-white/70">
         <div className="container py-3 flex items-center gap-3">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-globe w-6 h-6"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
           <div className="font-bold text-xl">台灣 → 中國｜旅遊 & 抖音課程商店</div>
