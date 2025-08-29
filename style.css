@@ -1,0 +1,106 @@
+:root{
+  --ink:#083344;      /* 深青 */
+  --brand:#0ea5a4;    /* 青綠 */
+  --bg:#f7faf9;
+  --muted:#5b6f76;
+  --card:#ffffff;
+  --ring: rgba(14,165,164,.35);
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Arial,"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;
+  color:var(--ink);
+  background:var(--bg);
+}
+
+.wrap{max-width:1100px;margin-inline:auto;padding:24px}
+.hero{margin-bottom:16px;text-align:center}
+.hero h1{margin:0 0 6px;font-weight:800;letter-spacing:.02em}
+.hero .sub{margin:0;color:var(--muted)}
+
+.layout{display:grid;grid-template-columns:340px 1fr;gap:18px}
+@media (max-width: 900px){
+  .layout{grid-template-columns:1fr}
+}
+
+.days{
+  display:flex;flex-direction:column;gap:10px
+}
+.day-link{
+  display:block;
+  padding:14px 16px;
+  border-radius:14px;
+  background:var(--card);
+  color:var(--ink);
+  text-decoration:none;
+  border:1px solid #e6eeeb;
+  box-shadow:0 1px 0 rgba(0,0,0,.03);
+  transition:transform .05s ease, box-shadow .2s ease, border-color .2s ease;
+}
+.day-link:hover{box-shadow:0 6px 18px rgba(0,0,0,.06)}
+.day-link.active{
+  border-color:var(--brand);
+  box-shadow:0 0 0 4px var(--ring), 0 6px 18px rgba(0,0,0,.06);
+}
+
+.viewer{
+  background:var(--card);
+  border:1px solid #e6eeeb;
+  border-radius:16px;
+  padding:16px;
+  min-height:520px;
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+  box-shadow:0 6px 18px rgba(0,0,0,.05);
+}
+
+.photo{
+  margin:0;
+  border-radius:12px;
+  overflow:hidden;
+  background:#eef5f3;
+  border:1px solid #e6eeeb;
+}
+.photo img{
+  width:100%;
+  height:360px;
+  object-fit:cover;
+  display:block;
+}
+.photo figcaption{
+  padding:10px 12px;
+  font-size:14px;
+  color:var(--muted);
+  border-top:1px solid #e6eeeb;
+  background:#f9fcfb;
+}
+
+.blurb{
+  margin-top:2px;
+  padding:8px 2px;
+}
+
+.controls{
+  margin-top:auto;
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+.primary, .ghost{
+  appearance:none;border:1px solid transparent;border-radius:12px;
+  padding:10px 14px;cursor:pointer;font-weight:600;text-decoration:none;
+}
+.primary{
+  background:var(--brand);color:#fff;border-color:var(--brand)
+}
+.primary:focus{outline:none;box-shadow:0 0 0 4px var(--ring)}
+.ghost{
+  background:#fff;border-color:#e6eeeb;color:var(--ink)
+}
+.ghost:hover{background:#f4faf9}
+
+.foot{margin-top:16px;text-align:center;color:var(--muted)}

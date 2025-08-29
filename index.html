@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<main class="wrap">
+  <header class="hero">
+    <h1>杭州 5 日｜文化・商業・人脈探索之旅</h1>
+    <p class="sub">西湖・茶園・古剎・博物館・大運河・阿里參訪</p>
+  </header>
+
+  <section class="layout">
+    <!-- 左側：行程條列 -->
+    <nav class="days" aria-label="行程日期">
+      <a href="#" class="day-link active" data-day="1">第一天｜大龍船・三潭印月；in77・北山路夜訪</a>
+      <a href="#" class="day-link" data-day="2">第二天｜龍井村品茶 🍵；MCN 商務交流</a>
+      <a href="#" class="day-link" data-day="3">第三天｜靈隱寺；宋城《千古情》</a>
+      <a href="#" class="day-link" data-day="4">第四天｜攝影實操；中國傘博物館＋大運河＋自由時光</a>
+      <a href="#" class="day-link" data-day="5">第五天｜企業參訪（阿里）</a>
+    </nav>
+
+    <!-- 右側：實景照片／說明 -->
+    <section class="viewer" aria-live="polite">
+      <figure class="photo">
+        <img id="hero-img" alt="行程實景照" loading="lazy">
+        <figcaption id="hero-cap"></figcaption>
+      </figure>
+
+      <div class="blurb" id="blurb"></div>
+
+      <div class="controls">
+        <button id="prevBtn" class="ghost" type="button" aria-label="上一張">← 上一張</button>
+        <a id="openOriginal" class="primary" href="#" target="_blank" rel="noopener">放大</a>
+        <button id="nextBtn" class="ghost" type="button" aria-label="下一張">下一張 →</button>
+      </div>
+    </section>
+  </section>
+
+  <footer class="foot">
+    <small>相片來源：Pexels（可免費商用）。若圖片載入失敗，請點「開新視窗看大圖」。</small>
+  </footer>
+</main>
+<!-- partial -->
+  <script src='https://unpkg.com/react@17/umd/react.development.js'></script>
+<script src='https://unpkg.com/react-dom@17/umd/react-dom.development.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
