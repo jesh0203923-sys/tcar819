@@ -21,8 +21,8 @@ const data = {
     blurb:
     "清晨走進龍井村，品正宗龍井茶；下午與前字節投資 MCN 內容負責人交流，洞見新媒體與投資的未來趨勢。",
     photos: [
-    { src: P(32454737), credit: "Longjing Tea Plantations" },
-    { src: P(16009094), credit: "Tea Picking" },
+    { src: "https://i.postimg.cc/RZg3Z3mD/753-DA83-F-1391-4142-9-B7-D-944398611-F75.jpg", credit: "Longjing Tea Plantations" },
+    { src: "https://images.unsplash.com/photo-1679572472257-d9eefec2d630?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", credit: "Tea Picking" },
     { src: "https://images.unsplash.com/photo-1601831737591-493528c5daa2?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", credit: "龍井茶" }] },
 
 
