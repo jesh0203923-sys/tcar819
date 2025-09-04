@@ -11,9 +11,9 @@ const data = {
     blurb:
     "下午乘大龍船暢遊西湖，探訪「三潭印月」。晚間走訪湖濱銀泰 in77 與北山路沿線，感受杭州的都會夜色與人文底蘊。",
     photos: [
-    { src: P(31090609), credit: "Scenic Aerial, West Lake" },
-    { src: P(32734456), credit: "Pavilion by West Lake" },
-    { src: P(29126487), credit: "West Lake Aerial" }] },
+    { src: P(31090609), credit: "西湖" },
+    { src: P(32734456), credit: "三潭印月" },
+    { src: "https://i.postimg.cc/RCs7vzhj/2949756.jpg", credit: "西湖" }] },
 
 
   2: {
@@ -21,7 +21,7 @@ const data = {
     blurb:
     "清晨走進龍井村，品正宗龍井茶；下午與前字節投資 MCN 內容負責人交流，洞見新媒體與投資的未來趨勢。",
     photos: [
-    { src: "https://i.postimg.cc/RZg3Z3mD/753-DA83-F-1391-4142-9-B7-D-944398611-F75.jpg", credit: "Longjing Tea Plantations" },
+    { src: "https://i.postimg.cc/SNgv05bs/251919.jpg", credit: "課程" },
     { src: "https://images.unsplash.com/photo-1679572472257-d9eefec2d630?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", credit: "Tea Picking" },
     { src: "https://images.unsplash.com/photo-1601831737591-493528c5daa2?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", credit: "龍井茶" }] },
 
@@ -42,7 +42,7 @@ const data = {
     "上午攝影師實戰教學；午後參觀中國傘博物館、暢遊杭州大運河，並保留一小時周邊自由時間，慢遊城市紋理。",
     photos: [
     { src: P(6249531), credit: "Oil-paper Umbrellas" },
-    { src: P(6249532), credit: "Umbrellas in Forest" },
+    { src: P(6249532), credit: "西湖" },
     { src: P(21773464), credit: "杭州龍井茶園日出" }] },
 
 

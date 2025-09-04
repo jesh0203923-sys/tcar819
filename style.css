@@ -16,7 +16,7 @@ body{
   background:var(--bg);
 }
 
-.wrap{max-width:1600px;margin-inline:auto;padding:30px}
+.wrap{max-width:1500px;margin-inline:auto;padding:30px}
 .hero{margin-bottom:20px;text-align:center}
 .hero h1{margin:0 0 6px;font-weight:800;letter-spacing:.02em}
 .hero .sub{margin:0;color:var(--muted)}
@@ -36,7 +36,7 @@ body{
   background:var(--card);
   color:var(--ink);
   text-decoration:none;
-  border:1px solid #e6eeeb;
+  border:3px solid #1594fb;
   box-shadow:0 1px 0 rgba(0,0,0,.03);
   transition:transform .05s ease, box-shadow .2s ease, border-color .2s ease;
 }
@@ -49,12 +49,12 @@ body{
 .viewer{
   background:var(--card);
   border:1px solid #e6eeeb;
-  border-radius:14px;
-  padding:16px;
+  border-radius:16px;
+  padding:20px;
   min-height:700px;
   display:flex;
   flex-direction:column;
-  gap:12px;
+  gap:18px;
   box-shadow:0 6px 18px rgba(0,0,0,.05);
 }
 
@@ -80,19 +80,20 @@ body{
 }
 
 .blurb{
-  margin-top:2px;
-  padding:8px 2px;
+  margin-top:20px;
+  padding:6px 2px;
 }
 
 .controls{
   margin-top:auto;
   display:flex;
   align-items:center;
-  gap:10px;
+  gap:15px;
 }
 .primary, .ghost{
-  appearance:none;border:1px solid transparent;border-radius:12px;
-  padding:10px 14px;cursor:pointer;font-weight:600;text-decoration:none;
+  appearance:none;border:3px solid transparent;border-radius:13px;
+  padding:20px 30px;cursor:pointer;font-weight:900;text-decoration:none;
+font-size:19px;
 }
 .primary{
   background:var(--brand);color:#fff;border-color:var(--brand)
@@ -103,4 +104,13 @@ body{
 }
 .ghost:hover{background:#f4faf9}
 
-.foot{margin-top:16px;text-align:center;color:var(--muted)}
+.foot{margin-top:1px;text-align:center;color:var(--muted)}
+.foot a{
+  color: var(--brand);
+  text-decoration: none;
+  font-weight: 600;
+  margin-left: 6px;
+
+.foot a:hover{
+  text-decoration: underline;
+}
